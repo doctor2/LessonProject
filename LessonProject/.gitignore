@@ -1,0 +1,4 @@
+*.dll
+bin/LessonProject.dll.config
+bin/LessonProject.pdb
+bin/Ninject.Web.Common.xml

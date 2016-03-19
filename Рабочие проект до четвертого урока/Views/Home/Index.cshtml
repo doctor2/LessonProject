@@ -1,0 +1,18 @@
+﻿@*@model LessonProject.Models.IWeapon*@
+@model IList<LessonProject.Model.Role>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>LessonProject</h2>
+@foreach (var role in Model)
+{
+    <div class="item">
+        <span class="id"> @role.ID </span>
+        <span class="name"> @role.Name </span>
+        <span class="Code"> @role.Code </span>
+    </div> 
+}
+@*<p> @Model.Kill()
+    </p>*@
