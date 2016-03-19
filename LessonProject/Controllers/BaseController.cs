@@ -1,4 +1,5 @@
 ﻿using LessonProject.Model;
+using LessonProject.Models;
 using Ninject;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,8 @@ namespace LessonProject.Controllers
     {
         [Inject]
         public IRepository Repository { get; set; }
+
+        [Inject]
+        public IMapper ModelMapper { get; set; }
     }
 }

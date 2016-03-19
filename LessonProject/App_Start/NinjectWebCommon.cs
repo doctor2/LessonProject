@@ -13,7 +13,6 @@ namespace LessonProject.App_Start
     using LessonProject.Models;
     using LessonProject.Model;
     using System.Configuration;
-    using LessonProject.Model;
 
     public static class NinjectWebCommon 
     {
@@ -68,6 +67,7 @@ namespace LessonProject.App_Start
            // kernel.Bind<LessonProjectDbDataContext>().ToMethod(c => new LessonProjectDbDataContext(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString));
             kernel.Bind<LessonProjectDbDataContext>().ToMethod(c => new LessonProjectDbDataContext(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString));
             kernel.Bind<IRepository>().To<SqlRepository>().InRequestScope();
+            kernel.Bind<IMapper>().To<CommonMapper>().InSingletonScope();
             //kernel.Bind<IWeapon>().To<Bazuka>();
         }        
     }

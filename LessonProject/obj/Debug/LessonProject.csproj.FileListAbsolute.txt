@@ -25,3 +25,5 @@ C:\Users\Doctor\Documents\Visual Studio 2013\Projects\LessonProject\LessonProjec
 C:\Users\Doctor\Documents\Visual Studio 2013\Projects\LessonProject\LessonProject\obj\Debug\LessonProject.dll
 C:\Users\Doctor\Documents\Visual Studio 2013\Projects\LessonProject\LessonProject\obj\Debug\LessonProject.pdb
 C:\Users\Doctor\Documents\Visual Studio 2013\Projects\LessonProject\LessonProject\obj\Debug\LessonProject.csprojResolveAssemblyReference.cache
+C:\Users\Doctor\Documents\Visual Studio 2013\Projects\LessonProject\LessonProject\bin\AutoMapper.dll
+C:\Users\Doctor\Documents\Visual Studio 2013\Projects\LessonProject\LessonProject\bin\AutoMapper.xml
